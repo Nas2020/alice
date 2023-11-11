@@ -1,3 +1,25 @@
 {
-  "id": "did:web:nas2020.github.io:alice"
+  "did": "did:web:nas2020.github.io:alice",
+  "controllerKeyId": "04240b2b25d21349fe440193a5aaea875c887c68077d7e26a7f6275f52fbe136bf3175f6f1f09c9aa97d6bdc5bf3aba223cdaac50ae3ad68ca2ba82906acb9abec",
+  "keys": [
+    {
+      "type": "Secp256k1",
+      "kid": "04240b2b25d21349fe440193a5aaea875c887c68077d7e26a7f6275f52fbe136bf3175f6f1f09c9aa97d6bdc5bf3aba223cdaac50ae3ad68ca2ba82906acb9abec",
+      "publicKeyHex": "04240b2b25d21349fe440193a5aaea875c887c68077d7e26a7f6275f52fbe136bf3175f6f1f09c9aa97d6bdc5bf3aba223cdaac50ae3ad68ca2ba82906acb9abec",
+      "meta": {
+        "algorithms": [
+          "ES256K",
+          "ES256K-R",
+          "eth_signTransaction",
+          "eth_signTypedData",
+          "eth_signMessage",
+          "eth_rawSign"
+        ]
+      },
+      "kms": "local"
+    }
+  ],
+  "services": [],
+  "provider": "did:web",
+  "alias": "nas2020.github.io:alice"
 }
